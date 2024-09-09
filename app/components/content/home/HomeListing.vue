@@ -24,7 +24,6 @@
         :description="article.description"
         :image="article.image"
         :date="new Date(article.date).toLocaleDateString('en', { year: 'numeric', month: 'short', day: 'numeric' })"
-        :authors="article.authors"
         :badge="article.badge"
         :ui="{
           description: 'line-clamp-2'
@@ -48,5 +47,6 @@ const { data: articles } = await useAsyncData('articles', () => queryContent<Art
   .where({ _extension: 'md' })
   .limit(count)
   .sort({ date: -1 })
-  .find())
+  .find()
+)
 </script>

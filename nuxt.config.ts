@@ -8,8 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
     '@nuxt/ui',
-    '@vueuse/nuxt',
-    '@nuxthq/studio'
+    '@vueuse/nuxt'
   ],
 
   hooks: {

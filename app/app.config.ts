@@ -3,7 +3,7 @@ export default defineAppConfig({
     title: 'Nuxt Studio Demo'
   },
   ui: {
-    primary: 'blue',
+    primary: 'red',
     gray: 'slate',
     button: {
       rounded: 'rounded-full',

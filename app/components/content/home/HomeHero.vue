@@ -1,15 +1,13 @@
 <template>
   <ULandingHero>
     <template #headline>
-      <NuxtLink>
-        <UBadge
-          size="lg"
-          variant="outline"
-          class="rounded-full py-1 px-3 badge"
-        >
-          <slot name="headline" />
-        </UBadge>
-      </NuxtLink>
+      <UBadge
+        size="lg"
+        variant="outline"
+        class="rounded-full py-1 px-3 badge"
+      >
+        <slot name="headline" />
+      </UBadge>
     </template>
 
     <template #title>

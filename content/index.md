@@ -1,8 +1,3 @@
----
-title: Demo Studio
-description: Demonstration of Nuxt Studio, the Git-based CMS for Nuxt Content websites.
----
-
 ::home-hero
 #title
 Nuxt [Studio]{.text-primary} demo
@@ -27,7 +22,7 @@ Nuxt Studio
 ::
 
 ::home-image
-![valley](/Pyrenees2.webp)
+![valley](/Pyrenees1.webp)
 ::
 
 ::home-listing
