@@ -14,7 +14,14 @@ The best tools for creating and editing website content come from the powerful c
 Nuxt Studio
 
 #links
-  :::u-button{size="lg" target="_blank" to="https://nuxt.studio" color="gray" variant="link"}
+  :::u-button
+  ---
+  color: gray
+  size: lg
+  target: _blank
+  to: https://nuxt.studio
+  variant: link
+  ---
   Nuxt Studio
   :::
 ::
@@ -23,11 +30,13 @@ Nuxt Studio
 ![valley](/Pyrenees2.webp)
 ::
 
-::home-listing{:count="3"}
+::home-listing
+---
+count: 3
+---
 #title
 Discover our last [mountains]{.text-primary} trip
 
 #description
 Explores the beauty, challenges, and thrill of mountain environments, offering in-depth articles on popular mountain ranges, hidden trails, and the culture surrounding these majestic landscapes
 ::
-
