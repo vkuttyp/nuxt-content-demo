@@ -2,6 +2,20 @@ import { field, group } from '@nuxthq/studio/theme'
 
 export default defineNuxtSchema({
   appConfig: {
+    header: group({
+      title: 'Header',
+      description: 'Header configuration.',
+      icon: 'i-mdi-page-layout-header',
+      fields: {
+        title: field({
+          type: 'string',
+          title: 'Title',
+          description: 'Left badge of your header.',
+          icon: 'i-mdi-text',
+          default: 'Nuxt Studio Demo'
+        })
+      }
+    }),
     ui: group({
       title: 'UI',
       description: 'UI Customization.',

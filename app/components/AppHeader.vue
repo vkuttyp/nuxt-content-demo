@@ -2,10 +2,14 @@
   <UHeader>
     <template #logo>
       <UBadge
-        label="Nuxt Studio Demo"
+        :label="header.title"
         variant="subtle"
         class="mb-0.5"
       />
     </template>
   </UHeader>
 </template>
+
+<script lang="ts" setup>
+const { header } = useAppConfig()
+</script>

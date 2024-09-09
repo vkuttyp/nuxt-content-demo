@@ -1,4 +1,7 @@
 export default defineAppConfig({
+  header: {
+    title: 'Nuxt Studio Demo'
+  },
   ui: {
     primary: 'blue',
     gray: 'slate',
