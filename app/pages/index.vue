@@ -11,6 +11,3 @@ if (!page.value) {
     :value="page"
   />
 </template>
-
-<style scoped>
-</style>
