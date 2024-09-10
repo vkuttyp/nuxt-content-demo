@@ -1,6 +1,6 @@
 export default defineAppConfig({
   header: {
-    title: 'Nuxt Studio Demo'
+    title: 'UI x Content x Studio'
   },
   ui: {
     primary: 'red',
