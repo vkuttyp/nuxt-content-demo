@@ -1,28 +1,39 @@
 ::home-hero
 #headline
-Demonstration
+Demonstration of Nuxt Studio
 
 #title
-Discover the :br [UI]{.text-primary} x [Content]{.text-primary} x [Studio]{.text-primary} :br combo
+Discover the :br [UI]{.text-primary} x [Content]{.text-primary} x [Studio]{.text-primary} :br combination
 
 #description
-The best tools for creating and editing website content come from the powerful combination of Nuxt Studio, Nuxt Content, and Nuxt UI.
+The best tools for creating and **editing website** content come from the powerful combination of [Nuxt Studio](https://nuxt.studio), Nuxt Content, and Nuxt UI.
 
 #links
   :::u-button
   ---
-  color: gray
-  size: lg
+  color: primary
+  size: 2xl
   target: _blank
   to: https://nuxt.studio
   variant: link
   ---
   Nuxt Studio
   :::
+
+  :::u-button
+  ---
+  color: primary
+  size: 2xl
+  target: _blank
+  to: https://nuxt.studio
+  variant: link
+  ---
+  Nuxt Content
+  :::
 ::
 
 ::home-image
-![valley](/Pyrenees1.webp)
+![alps valley](/Alps2.webp)
 ::
 
 ::home-listing
