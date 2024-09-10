@@ -1,9 +1,9 @@
 export default defineAppConfig({
   header: {
-    title: 'UI x Content x Studio'
+    title: 'Demo'
   },
   ui: {
-    primary: 'blue',
+    primary: 'yellow',
     gray: 'slate',
     button: {
       rounded: 'rounded-full',
