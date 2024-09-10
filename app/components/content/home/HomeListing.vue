@@ -11,10 +11,6 @@
       />
     </template>
 
-    <template #headline>
-      <slot name="headline" />
-    </template>
-
     <UBlogList>
       <UBlogPost
         v-for="article in articles"
@@ -24,7 +20,6 @@
         :description="article.description"
         :image="article.image"
         :date="new Date(article.date).toLocaleDateString('en', { year: 'numeric', month: 'short', day: 'numeric' })"
-        :badge="article.badge"
         :ui="{
           description: 'line-clamp-2'
         }"

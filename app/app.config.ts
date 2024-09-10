@@ -3,7 +3,7 @@ export default defineAppConfig({
     title: 'UI x Content x Studio'
   },
   ui: {
-    primary: 'red',
+    primary: 'blue',
     gray: 'slate',
     button: {
       rounded: 'rounded-full',

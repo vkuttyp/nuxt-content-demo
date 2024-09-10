@@ -1,12 +1,12 @@
 ::home-hero
+#headline
+Demonstration
+
 #title
-Level up with the <br> [UI]{.text-primary} x [Content]{.text-primary} x [Studio]{.text-primary} <br> combo
+Discover the <br> [UI]{.text-primary} x [Content]{.text-primary} x [Studio]{.text-primary} <br> combo
 
 #description
 The best tools for creating and editing website content come from the powerful combination of Nuxt Studio, Nuxt Content, and Nuxt UI.
-
-#headline
-Demonstration
 
 #links
   :::u-button
@@ -22,7 +22,7 @@ Demonstration
 ::
 
 ::home-image
-![valley](/Pyrenees1.webp)
+ ![valley](/Pyrenees1.webp)
 ::
 
 ::home-listing

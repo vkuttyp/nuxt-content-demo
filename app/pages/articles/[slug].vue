@@ -10,17 +10,12 @@ if (!article.value) {
 </script>
 
 <template>
-  <UContainer v-if="article">
+  <UContainer>
     <UPageHeader
       :title="article.title"
       :description="article.description"
     >
       <template #headline>
-        <UBadge
-          v-bind="article.badge"
-          variant="subtle"
-        />
-        <span class="text-gray-500 dark:text-gray-400">&middot;</span>
         <time class="text-gray-500 dark:text-gray-400">{{ new Date(article.date).toLocaleDateString('en', { year: 'numeric', month: 'short', day: 'numeric' }) }}</time>
       </template>
     </UPageHeader>
