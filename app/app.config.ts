@@ -1,6 +1,6 @@
 export default defineAppConfig({
   header: {
-    title: 'UI x Content x Studio'
+    title: 'UI Pro x Content x Studio'
   },
   ui: {
     primary: 'blue',
