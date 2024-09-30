@@ -1,12 +1,12 @@
 ::home-hero
 #headline
-Demonstration of Nuxt Studio
+Nuxt Power
 
 #title
-Discover the :br [UI]{.text-primary} x [Content]{.text-primary} x [Studio]{.text-primary} :br combination
+Discover the [Nuxt]{.text-primary-500} ecosystem
 
 #description
-The best tools for creating and **editing website** content come from the powerful combination of [Nuxt Studio](https://nuxt.studio), Nuxt Content, and Nuxt UI.
+The ultimate toolkit for creating, editing, and deploying websites -  a powerfull combination that powers **your entire web development workflow**.
 
 #links
   :::u-button
@@ -25,10 +25,32 @@ The best tools for creating and **editing website** content come from the powerf
   color: primary
   size: 2xl
   target: _blank
-  to: https://nuxt.studio
+  to: https://content.nuxt.com
   variant: link
   ---
   Nuxt Content
+  :::
+
+  :::u-button
+  ---
+  color: primary
+  size: 2xl
+  target: _blank
+  to: https://ui.nuxt.com/pro
+  variant: link
+  ---
+  Nuxt UI Pro
+  :::
+
+  :::u-button
+  ---
+  color: primary
+  size: 2xl
+  target: _blank
+  to: https://hub.nuxt.com
+  variant: link
+  ---
+  NuxtHub
   :::
 ::
 
