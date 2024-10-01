@@ -7,6 +7,9 @@
         class="mb-0.5"
       />
     </template>
+    <template #right>
+      <UColorModeButton size="sm" />
+    </template>
   </UHeader>
 </template>
 
