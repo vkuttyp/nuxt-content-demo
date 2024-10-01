@@ -1,12 +1,12 @@
 ::home-hero
 #headline
-Nuxt Power
+Powered by Nuxt
 
 #title
-Discover the [Nuxt]{.text-primary-500} ecosystem
+Discover the [Nuxt]{.text-primary-500} ecosystem !
 
 #description
-The ultimate toolkit for creating, editing, and deploying websites -  a powerfull combination that powers **your entire web development workflow**.
+The ultimate ~~toolkit for creating~~, editing, and deploying websites -  a powerfull combination that powers **your entire web development workflow**.
 
 #links
   :::u-button
@@ -38,10 +38,20 @@ The ultimate toolkit for creating, editing, and deploying websites -  a powerful
   ---
   Nuxt UI Pro
   :::
+
+  :::u-button
+  ---
+  color: primary
+  target: _blank
+  to: https://hub.nuxt.com
+  variant: link
+  ---
+  Nuxt Hub
+  :::
 ::
 
 ::home-image
-![alps valley](/Alps2.webp)
+![alps valley](/Alps3.webp)
 ::
 
 ::home-listing
@@ -49,7 +59,7 @@ The ultimate toolkit for creating, editing, and deploying websites -  a powerful
 count: 3
 ---
 #title
-Discover our last trip
+Discover **our last trip**
 
 #description
 Explores the beauty, challenges, and thrill of mountain environments, offering in-depth articles on popular mountain ranges, hidden trails, and the culture surrounding these majestic landscapes
