@@ -1,6 +1,6 @@
 export default defineAppConfig({
   header: {
-    title: 'Demo hello'
+    title: 'Demo'
   },
   ui: {
     primary: 'mint',
