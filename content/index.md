@@ -1,9 +1,9 @@
 ::home-hero
 #headline
-Powered by Nuxt
+Nuxt power
 
 #title
-Discover the [Nuxt]{.text-primary-500} ecosystem !!
+Discover the [Nuxt]{.text-primary-500} ecosystem
 
 #description
 The ultimate toolkit for creating, editing, and deploying websites -  a powerfull combination that powers **your entire web development workflow**.
@@ -38,20 +38,10 @@ The ultimate toolkit for creating, editing, and deploying websites -  a powerful
   ---
   Nuxt UI Pro
   :::
-
-  :::u-button
-  ---
-  color: primary
-  target: _blank
-  to: https://hub.nuxt.com
-  variant: link
-  ---
-  NuxtHub
-  :::
 ::
 
 ::home-image
-![alps valley](/Alps1.webp)
+![alps valley](/Pyrenees3.webp)
 ::
 
 ::home-listing
