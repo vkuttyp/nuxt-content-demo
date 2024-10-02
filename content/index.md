@@ -1,6 +1,6 @@
 ::home-hero
 #headline
-Powered by Nuxt
+Nuxt power
 
 #title
 Discover the [Nuxt]{.text-primary-500} ecosystem
@@ -37,16 +37,6 @@ The ultimate toolkit for creating, editing, and deploying websites -  a powerful
   variant: link
   ---
   Nuxt UI Pro
-  :::
-
-  :::u-button
-  ---
-  color: red
-  target: _blank
-  to: https://hub.nuxt.com
-  variant: link
-  ---
-  NuxtHub
   :::
 ::
 

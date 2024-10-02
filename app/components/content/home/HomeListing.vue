@@ -39,7 +39,6 @@ const { count } = defineProps({
 })
 
 const { data: articles } = await useAsyncData('articles', () => queryContent<Article>('/articles')
-  .where({ _extension: 'md' })
   .limit(count)
   .sort({ date: -1 })
   .find()
