@@ -1,12 +1,12 @@
 ::home-hero
 #headline
-Powered by Nuxt
+Powered by UI Pro
 
 #title
-Discover the [Nuxt]{.text-primary-500} ecosystem
+Discover [Nuxt Studio]{.text-primary-500}
 
 #description
-The ultimate toolkit for creating, editing, and deploying websites -  a powerfull combination that powers **your entire web development workflow**.
+The new editing experience for your **Nuxt Content** website, offering infinite customization and user-friendly edition
 
 #links
   :::u-button
@@ -27,26 +27,6 @@ The ultimate toolkit for creating, editing, and deploying websites -  a powerful
   variant: link
   ---
   Nuxt Content
-  :::
-
-  :::u-button
-  ---
-  color: primary
-  target: _blank
-  to: https://ui.nuxt.com/pro
-  variant: link
-  ---
-  Nuxt UI Pro
-  :::
-
-  :::u-button
-  ---
-  color: primary
-  target: _blank
-  to: https://hub.nuxt.com
-  variant: link
-  ---
-  NuxtHub
   :::
 ::
 
