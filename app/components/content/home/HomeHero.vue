@@ -24,7 +24,7 @@
     </template>
 
     <template #links>
-      <slot name="links" />
+      <slot name="bottom" />
     </template>
   </ULandingHero>
 </template>
